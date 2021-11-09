@@ -106,7 +106,3 @@ init();
 const clearBookmarks = function () {
   localStorage.clear('bookmarks');
 };
-
-const newFeature = function () {
-  console.log('This is a new feature');
-};
