@@ -99,10 +99,14 @@ const init = function () {
   recipeView.addHandlerAddBookmark(controlAddBookmark);
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
-  console.log('Wtf rumenia');
+  newFeature();
 };
 init();
 
 const clearBookmarks = function () {
   localStorage.clear('bookmarks');
+};
+
+const newFeature = function () {
+  console.log('This is a new feature');
 };
